@@ -61,11 +61,11 @@
     chmod 0755 /etc/init.d/openoffice.sh
     update-rc.d openoffice.sh defaults
     ```
-11. Run openoffice
+12. Run openoffice
     ```
     /etc/init.d/openoffice.sh start
     ```
-12. Test connection
+13. Test connection
 <img src="/images/pic_1.png">
 <img src="/images/pic_2.png">
           
