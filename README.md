@@ -65,6 +65,10 @@
     ```
     /etc/init.d/openoffice.sh start
     ```
+12. Test connection
+<img src="/images/pic_1.png">
+<img src="/images/pic_2.png">
+          
 REFERENCES:
 
 https://serpentcs.com/serpentcs-setup-aeroo-report-engine-for-openerp-272
