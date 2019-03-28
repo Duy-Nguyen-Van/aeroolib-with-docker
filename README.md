@@ -68,7 +68,9 @@
 13. Test connection
 <img src="/images/pic_1.png">
 <img src="/images/pic_2.png">
-          
+
+If you still can't install it, you should buy a new computer 😛😛😛😛
+
 REFERENCES:
 
 https://serpentcs.com/serpentcs-setup-aeroo-report-engine-for-openerp-272
