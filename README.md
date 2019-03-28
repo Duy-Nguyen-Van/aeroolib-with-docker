@@ -1,11 +1,11 @@
 # aeroolib-with-docker
 
-1. Login docker container
+1. Log into docker container
     ```
     docker exec -u root -it <container_name> bin/bash
     ```
-    (if don't know <container_name> use ``` docker ps ```)
-    
+    (if don't know <container_name>, use ``` docker ps ```)
+
 2. Install git
     ```
     apt-get update && \
@@ -24,7 +24,7 @@
     apt-get install python-cairo python3-uno python-lxml
     apt-get install zip bzr python-setuptools
     ```
-5. Install Aeroolib
+5. Install Aeroo Library
     ```
     pip3 install git+https://github.com/aeroo/currency2text.git
     git clone https://github.com/aeroo/aeroolib
