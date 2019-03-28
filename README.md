@@ -28,7 +28,7 @@
     ```
     pip3 install git+https://github.com/aeroo/currency2text.git
     git clone https://github.com/aeroo/aeroolib
-    cd aerolib
+    cd aeroolib
     python3 setup.py install
     ```
 6. Install & setup Aeroo Docs
@@ -56,6 +56,8 @@
     ```
     nano /etc/init.d/openoffice.sh
     ```
+    (if not installed ```nano```, use ```apt install nano```)
+
 11. Make the file executable and add init script to the startup
     ```
     chmod 0755 /etc/init.d/openoffice.sh
@@ -69,7 +71,7 @@
 <img src="/images/pic_1.png">
 <img src="/images/pic_2.png">
 
-If you still can't install it, you should buy a new computer 😛😛😛😛
+14. If you still can't install it, you should buy a new computer 😛😛😛😛
 
 REFERENCES:
 
