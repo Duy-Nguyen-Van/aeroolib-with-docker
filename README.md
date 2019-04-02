@@ -65,7 +65,7 @@
     ```
 12. Run openoffice
     ```
-    /etc/init.d/openoffice.sh start
+    /etc/init.d/openoffice.sh restart
     ```
 13. Test connection
 <img src="/images/pic_1.png">
