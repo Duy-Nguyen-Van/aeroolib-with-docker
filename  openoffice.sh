@@ -33,8 +33,23 @@ fi
 echo "Openoffice headless server is not running."
 exit
 ;;
+restart)
+if [ -f $PIDFILE ]; then
+echo "Stopping OpenOffice headless server."
+killall -9 soffice && killall -9 soffice.bin
+rm -f $PIDFILE
+fi
+if [ -f $PIDFILE ]; then
+echo "OpenOffice headless server has already started."
+sleep 5
+exit
+fi
+echo "Starting OpenOffice headless server"
+$SOFFICE_PATH --headless --nologo --nofirststartwizard --accept="socket,host=127.0.0.1,port=8100;urp" & > /dev/null 2>&1
+touch $PIDFILE
+;;
 *)
-echo "Usage: $0 {start|stop}"
+echo "Usage: $0 {start|stop|restart}"
 exit 1
 esac
 exit 0
